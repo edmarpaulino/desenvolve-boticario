@@ -1,0 +1,51 @@
+Quando uma linguagem pode ser considerada dinâmicamente tipada?
+Um lingaugem pode ser considerada dinâmicamente tipada quando você não precisa
+definir o tipo de valor que determinada variável irá receber e quando no mesmo
+escopo uma variável pode abrigar diferentes tipos de dados, ou seja, em um
+determinado momento a variável pode conter um dado do tipo number e em outro do
+tipo string e em outro ainda um boolean, array, objeto ou até mesmo uma função.
+
+O que é uma linguagem interpretada?
+Uma linguagem interepretada é aquela que não precisa de ser compilada em
+linguagem de máquina, tem um programa interpretador que lê o código, interpreta
+e dá as intruções para o computador fazer a execução.
+
+O que é stacktrace?
+Stacktrace ou rastreamento de pilha é uma forma de exibição de erro no console,
+no caso temos uma pilha onde no topo está a função aonde ocorreu o erro e em
+seguida a cada elemento abaixo são as chamadas de função que compõe o caminho
+até o erro ocorrido, indicando também o erro e a linha onde ocorreu o erro, um
+ponto a resaltar é que funções anônimas não geram erros com nomes já que são
+anônimas.
+
+Quais são os 2 tipos de comparações em JS?
+São a comparação implicita e a explicita/estrita, na implicita há uma conversão
+sobre os dados que estão sendo comparado e o que define a comparação são somente
+os valores dos dados, na conversão explicita/estrita tanto o valor quanto o tipo
+do dado são fatores determinates para a comparação.
+
+Como usar um operador ternário?
+condição/comparação ? caso true : caso false
+
+Qual ou quais as diferençãs entre parâmetro e argumento?
+Na prática ambos são palavras diferentes para a mesma coisa, só que em livros e
+documentações o autor pode se referir a parâmetro como sendo o dado declarado na
+função, ou seja, em function soma(num1, num2), num1 e num2 são os parâmetros, e
+argumentos seriam os valores desses parâmetros, ou seja, soma(4, 5), 4 e 5 são
+os argumentos.
+
+Qual é uma das principais diferenças entre a declaração de função e um expressão
+de função?
+Uma das principais diferenças é o efeito de hoisting, no qual uma declaração de
+função tem esse efeito enquanto um expressão de função só tem o comportamento de
+uma variável na qual ela foi atribuída, ou seja a declaração de função podemos
+chamar a função antes mesmo dela ter sido declarada no arquivo, já um expressão
+de função nós só podemos chamar a função após a sua declaração/atribuição.
+
+O que é o efeito de hoisting no JS?
+O efeito de hoisting no JS no qual afeta as variáveis do tipo var e as
+declarações de funções (function), é o efeito no qual quando o interpretador vai
+interpretar o código ele lê o arquivo inteiro e lança as var e functions para o
+topo do arquivo, então mesmo que você chame uma variável do tipo var ou uma
+função de declaração de função antes das suas respectivas declarações, elas já
+estão declaradas quando a função ou variável forem declaradas ou usadas.
