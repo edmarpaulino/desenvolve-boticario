@@ -1,0 +1,13 @@
+O que é o método forEach e como utiliza-lo?
+
+O que é uma função callback?
+
+Qual a diferença entre o método forEach e o método map?
+
+Quando usamos o underline '_' como parâmetro de uma função?
+
+O que é o método map?
+
+O que é o método filter?
+
+O que é o método reduce?

@@ -1,0 +1,14 @@
+O que é uma coleção ordenada de valores?
+Pode se dizer que uma coleção ordenada de valores é um array.
+
+Para que é usado um array?
+O array é usado para agrupar vários dados que tem relação entre si.
+
+Porque um elemento de uma lista é um elemento enumerado?
+Por que ele está atrelado a um index que corresponde a sua posição na lista.
+
+O que é um método?
+Um método é uma propriedade de um array ou de um objeto que realiza uma tarefa específica.
+
+O que é um array esparso?
+Um array esparso em JS é um array que contém espaços vazios.

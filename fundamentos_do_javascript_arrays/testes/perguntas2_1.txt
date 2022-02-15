@@ -1,0 +1,13 @@
+Quantos parâmetros o método splice tem e o que ele faz?
+O método splice recebe três parâmetros, o primeiro é a posição em que ele vai operar, o segundo quantos elementos ele vai operar, e o terceiro um elemento pra ser inserido na posição que ele vai operar.
+array.splice(0, 2, 'Novo elemento'); = A partir da posição 0 pegue 2 elementos e substitua por 'Novo elemento'.
+Com esse método conseguimos realizar 3 operações: Inserir, substituir e remover.
+
+Inserir:
+array.splice(0, 0, 'Novo elemento') = A partir da posição 0 pegue 0 elementos e substitua por 'Novo elemento', nesse caso ele vai adicionar o 'Novo elemento' na posição 0.
+
+Substituir:
+array.splice(0, 2, 'Novo elemento') = A partir da posição 0 pegue 2 elementos e substitua por 'Novo elemento', nesse caso ele vai substituir os valores da posição 0 e 1 pelo novo elemento.
+
+Remover:
+array.splice(0, 2) = A partir da posição 0 pegue 2 elementos e substitua por nada, ou seja ele vai remover os elementos da posição 0 e 1.
