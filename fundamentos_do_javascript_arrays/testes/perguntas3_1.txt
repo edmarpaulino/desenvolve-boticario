@@ -19,4 +19,4 @@ O que é o método filter?
 O método filter retorna um novo array com os elementos que passarem pela condição de teste da função callback recebida como parâmetro.
 
 O que é o método reduce?
-O método filter recebe uma função redutora como função callback e executa essa função em todos os elementos do array retornando um único valor.
+O método reduce recebe uma função redutora como função callback e executa essa função em todos os elementos do array retornando um único valor.

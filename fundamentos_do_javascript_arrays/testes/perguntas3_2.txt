@@ -1,13 +1,23 @@
 O que é o método forEach e como utiliza-lo?
+O método forEach é uma propriedade de um array no qual ele itera sobre todo array aplicando a função callback em todos os elementos.
 
 O que é uma função callback?
+Uma função callback é toda e qualquer função que é passada como parâmetro para outra função e que irá executar uma determinada tarefa dentro dessa função.
 
 Qual a diferença entre o método forEach e o método map?
+A diferença é que o método map retorna um novo array com os elementos alterados pela função callback passada como parâmetro caso essa tenha retorno, já o método forEach não possuí retorno independente da função callback ter ou não.
 
 Quando usamos o underline '_' como parâmetro de uma função?
+Quando vamos receber mais de um parâmetro mas um dos parâmetros anteriores não iremos usar, exemplo:
+array.forEach((nome, indice) => console.log(indice));
+No exemplo acima não estamos usando o parâmetro nome então podemos fazer da seguinte forma:
+array.forEach((_, indice) => console.log(indice));
 
 O que é o método map?
+O método map é uma propriedade do array na qual ele itera sobre todo array aplicando a função callback em todos os elementos, só que ele retorna um novo array com os elementos alterados pela função callback de acordo com o retorno da função para cada elemento.
 
 O que é o método filter?
+O método filter é uma propriedade do array na qual ele itera sobre todo o array aplicando a função callback em todos os elementos, ele retorna um novo array com os elementos que passarem pelo teste da função callback, essa que por sua vez deve retornar true or false.
 
 O que é o método reduce?
+O método reduce é uma propriedade do array na qual ele itera sobre todo o array e retorna um único resultado após terminar a iteração e mediante a função callback que é passada como parâmetro.
