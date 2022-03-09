@@ -1,0 +1,25 @@
+O que é um objeto?
+Um objeto é um tipo de dado que reflete uma abstração de um objeto do mundo real, onde se possuí características próprias, atributos, os atributos são um par de chave e valor, onde a chave é o nome do atributo/propriedade e o valor é o valor desse atributo/propriedade.
+
+O que é a notação de ponto?
+A notação de ponto serve para podermos acessar determinados atributos de um objeto, exemplo:
+objeto.nome
+No exemplo acima estamos acessando a propriedade nome do objeto.
+
+O que é a notação de colchetes?
+A notação de colchetes é igual a de ponto, usamos ela para acessar um determinado atributo de um objeto, e dentro dos colchetes informamos o nome/chave do atributo ao qual queremos acessar, se assemelha muito a um array, só que ao invés de passar o índice entre colchetes passamos a chave do atributo, exemplo:
+objeto['nome'];
+No exemplo acima estamos acessando a propriedade nome do objeto.
+
+O que acontece quando tentamos acessar um campo de um objeto que não existe?
+O JS nos retorna undefined, ou seja, ele não acusa um erro.
+
+Como criar um novo atributo em um objeto?
+Para criar um novo atributo para um objeto já existente usamos a notação de ponto, onde então colocamos o nome do objeto que queremos adicionar um novo atributo e depois do ponto o nome do novo atributo, e já atribuímos um valor para esse novo atributo, exemplo:
+objeto.idade = 99;
+
+Como deletar um atributo de um objeto?
+Para deletar um atributo de um objeto utilizamos o operador delete seguido do objeto ponto o nome do atributo que queremos deletar, exemplo:
+delete objeto.idade;
+No exemplo acima o atributo idade do objeto será deletado.
+O operador delete retorna um valor booleano, mas se você tentar deletar um atributo que não existe ele retorna true, ele só retorna false quando você tenta deletar um atributo que é herdado de outro objeto.

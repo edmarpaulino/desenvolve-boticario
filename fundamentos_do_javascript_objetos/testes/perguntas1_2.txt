@@ -1,0 +1,11 @@
+O que é um objeto?
+
+O que é a notação de ponto?
+
+O que é a notação de colchetes?
+
+O que acontece quando tentamos acessar um campo de um objeto que não existe?
+
+Como criar um novo atributo em um objeto?
+
+Como deletar um atributo de um objeto?
